@@ -34,7 +34,7 @@ publishing {
         val repositoryDir = rootProject.file("public").resolve("fpublic")
             .resolve("repository")
         maven {
-            name = "FPublicReleases"
+            name = "MangoReleases"
             url = repositoryDir.resolve("releases").toURI()
         }
     }
